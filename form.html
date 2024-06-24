@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Solutions</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-image: url(Diseño\ sin\ título.png);
+            background-size: cover;
+            background-position: center;
+            height: 100vh; 
+            margin: 0; 
+            padding: 0;
+        }
+
+        .form-container {
+            background-color: rgba(255, 255, 255, 0.9); 
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 50px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+
+</head>
+<body>
+    <section class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Interested Service</label>
+                        <select class="form-control" id="service">
+                            <option value="web">Web Development</option>
+                            <option value="app">Mobile App Development</option>
+                            <option value="it">IT Consulting</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="4" placeholder="Your message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-6 offset-md-3">
+                <form class="form-inline">
+                    <div class="form-group mb-2">
+                        <label for="inlineName" class="sr-only">Name</label>
+                        <input type="text" class="form-control" id="inlineName" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group mx-sm-3 mb-2">
+                        <label for="inlineEmail" class="sr-only">Email</label>
+                        <input type="email" class="form-control" id="inlineEmail" placeholder="Enter your email">
+                    </div>
+                    <button type="submit" class="btn btn-primary mb-2">Submit</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-6 offset-md-3">
+                <form>
+                    <div class="form-group">
+                        <label for="stackedName">Name</label>
+                        <input type="text" class="form-control" id="stackedName" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="stackedEmail">Email</label>
+                        <input type="email" class="form-control" id="stackedEmail" placeholder="Enter your email">
+                    </div>
+                    <div class="form-group">
+                        <label for="stackedService">Interested Service</label>
+                        <select class="form-control" id="stackedService">
+                            <option value="web">Web Development</option>
+                            <option value="app">Mobile App Development</option>
+                            <option value="it">IT Consulting</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="stackedMessage">Message</label>
+                        <textarea class="form-control" id="stackedMessage" rows="4" placeholder="Your message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-6 offset-md-3">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        <div class="invalid-feedback">
+                            Please enter a valid email address.
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" required>
+                        <div class="invalid-feedback">
+                            Please enter your password.
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
